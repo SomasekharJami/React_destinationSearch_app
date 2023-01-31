@@ -1,0 +1,32 @@
+.liItem {
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .img2 {
+    width: 65vw;
+    border: none;
+    border-radius: 15px;
+  }
+  .itemP {
+    font-size: 2vw;
+    color: #0f172a;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .liItem {
+    width: 35vw;
+    padding: 20px;
+    margin: 25px;
+  }
+  .img2 {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+  }
+  .itemP {
+    font-size: 2vw;
+    color: #0f172a;
+  }
+}
